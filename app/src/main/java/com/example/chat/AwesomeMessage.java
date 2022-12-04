@@ -3,15 +3,15 @@ package com.example.chat;
 public class AwesomeMessage {
     String text;
     String name;
-    String inageUrl;
+    String imageUrl;
 
     public AwesomeMessage(){
     }
 
-    public AwesomeMessage(String text, String name, String inageUrl) {
+    public AwesomeMessage(String text, String name, String imageUrl) {
         this.text = text;
         this.name = name;
-        this.inageUrl = inageUrl;
+        this.imageUrl = imageUrl;
     }
 
     public String getText() {
@@ -22,8 +22,8 @@ public class AwesomeMessage {
         return name;
     }
 
-    public String getInageUrl() {
-        return inageUrl;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
     public void setText(String text) {
@@ -35,6 +35,6 @@ public class AwesomeMessage {
     }
 
     public void setInageUrl(String inageUrl) {
-        this.inageUrl = inageUrl;
+        this.imageUrl = inageUrl;
     }
 }
